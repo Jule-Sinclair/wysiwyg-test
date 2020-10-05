@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "es2015",
+      "es2016"
+    ],
+    "strict": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "preserveConstEnums": true,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist/",
+    "baseUrl": ".", // To use paths option
+    "paths": {
+      "components/*": [
+        "src/components/*"
+      ],
+      "constants/*": [
+        "src/constants/*"
+      ],
+      "pages/*": [
+        "src/pages/*"
+      ],
+      "util/*": [
+        "src/util/*"
+      ],
+    }
+  },
+  "include": [
+    "src",
+    "src/**/*.svg",
+    "src/**/*.png",
+    "src/**/*.jpg",
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compileOnSave": false
+}
