@@ -5,6 +5,10 @@
   "repository": "git@github.com:Jununymous/wysiwyg-test.git",
   "author": "Lee Junwoo <junu.sinclair@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.11.1",
